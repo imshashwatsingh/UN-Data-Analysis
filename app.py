@@ -6,7 +6,7 @@ from helper import overall_population , preprocess
 from functions import overall_data,num_countries,list_of_countries,pie_trade,fertility_rate,IMR,pop_reg,region_trade,region_trade_perc,reg_fer_rate,country_wise_analysis,age_class
 
 
-df = pd.read_csv('dataset/country_variables.csv')
+df = pd.read_csv('country_variables.csv')
 
 df = preprocess(df)
 
